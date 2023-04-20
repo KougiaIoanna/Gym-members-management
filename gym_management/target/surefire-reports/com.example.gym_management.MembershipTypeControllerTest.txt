@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.gym_management.MembershipTypeControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.227 s <<< FAILURE! - in com.example.gym_management.MembershipTypeControllerTest
+testUpdateMembershipType  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.gym_management.MembershipTypeControllerTest.testUpdateMembershipType(MembershipTypeControllerTest.java:228)
+
+testDeleteMembershipType  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at com.example.gym_management.MembershipTypeControllerTest.testDeleteMembershipType(MembershipTypeControllerTest.java:268)
+

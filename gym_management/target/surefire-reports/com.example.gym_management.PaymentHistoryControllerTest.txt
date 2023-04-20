@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.example.gym_management.PaymentHistoryControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.288 s <<< FAILURE! - in com.example.gym_management.PaymentHistoryControllerTest
+testAddPayment  Time elapsed: 0.071 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<405>
+	at com.example.gym_management.PaymentHistoryControllerTest.testAddPayment(PaymentHistoryControllerTest.java:69)
+
+testGetPaymentHistoryById  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.paymentId"
+	at com.example.gym_management.PaymentHistoryControllerTest.testGetPaymentHistoryById(PaymentHistoryControllerTest.java:161)
+Caused by: com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['paymentId'] in path $ but found 'net.minidev.json.JSONArray'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+
