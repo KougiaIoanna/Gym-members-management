@@ -1,0 +1,207 @@
+.table-container {
+  margin: 20px;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e9edc9;
+}
+
+.table th {
+  background-color: #e9edc9;
+  color: #1f2833;
+}
+
+.table tr:hover {
+  background-color: #e9edc9;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none !important;
+  background-color: #45a29e;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #73c3bf;
+  cursor: pointer;
+}
+
+.add-member-form {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9edc9;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-title-container {
+  background-color: #abdbb8;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  color: #1f2833;
+}
+
+.form-column {
+  width: 50%;
+}
+
+.form-column-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.two-column-form-label {
+  font-size: large;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: grid;
+}
+
+.two-column-form-input {
+  height: 35px;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 300px;
+}
+
+.one-column-form-input {
+  height: 35px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.one-column-form-label {
+  font-size: large;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: grid;
+}
+
+.date-input {
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.save-button {
+  margin-top: 30px;
+  width: 200px;
+  font-size: large;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: #45a29e;
+
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(212, 174, 174, 0.4);
+  align-self: center;
+}
+
+.delete-button {
+  margin-top: 30px;
+  width: 200px;
+  font-size: large;
+  align-self: flex-start;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: #a14549;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(212, 174, 174, 0.4);
+}
+.save-button:hover {
+  background-color: #abdbb8;
+  color: #1f2833;
+}
+.delete-button:hover {
+  background-color: #ca8585;
+  color: #1f2833;
+}
+
+.add-payment-form {
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9edc9;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-payment-form label {
+  font-size: large;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: grid;
+  align-self: center;
+}
+
+.add-payment-form input {
+  margin-top: 20px;
+  padding: 5px;
+  display: grid;
+  align-self: center;
+}
+
+.checkbox-container {
+  display: inline-flex;
+  margin-top: 20px;
+}
+.checkbox-label {
+  font-size: large;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.checkboxx {
+  margin-top: 22px;
+  font-size: large;
+  margin-left: 20px;
+  transform: scale(2.5);
+}
